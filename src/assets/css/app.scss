@@ -7,9 +7,17 @@ body {
     margin: 0;
 
     .app {
-        background-color: #18343c;
+        background-color:white;
         display: flex;
         height: 100vh;
+
+        .center {
+            text-align: center;
+        }
+        .container {
+            margin: 0 auto;
+            width: 1000px;
+        }
 
         .welcome {
             color: #FFF;
