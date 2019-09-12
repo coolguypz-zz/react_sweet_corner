@@ -1,0 +1,29 @@
+.main-nav{
+  position: absolute;
+  top: 27%;
+  right: 2%;
+
+  li{
+    display: inline-block;
+    margin-left: 35px;
+    list-style: none;
+    font-size: .75rem;
+    text-transform: uppercase;
+    text-align: center;
+    text-shadow: 2px 2px 3px darkgrey;
+    cursor: pointer;
+    font-family: sans-serif;
+
+    a{
+      text-decoration: none;
+      color: #754b23;
+
+      &:hover{
+        color: orange;
+      }
+    }
+  }
+}
+
+
+

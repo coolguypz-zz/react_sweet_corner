@@ -1,0 +1,21 @@
+footer{
+  height: 80px;
+  padding-top: 20px;
+  background-color: #06b4af;
+  color: white;
+
+
+  .dots{
+    // border: 1px solid red;
+  background-image: url('../../assets/images/dots-footer.png');
+  background-repeat: no-repeat;
+  background-position: 40px 0;
+  }
+
+  .phoneimg{
+    background-image: url('../../assets/images/phone.png');
+    background-repeat: no-repeat;
+    background-position: 45px 5px
+  }
+
+}

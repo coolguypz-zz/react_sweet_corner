@@ -1,0 +1,56 @@
+
+
+h6{
+  color: #754b23;
+}
+
+.send{
+  background-color: #06b4af;
+  width:155px;
+  height: 35px;
+  margin-bottom:5%;
+  border-radius: 4px;
+
+  &:hover{
+    color:white;
+  }
+}
+
+.m5{
+  margin-right:16%;
+}
+
+.pad{
+  padding:15px;
+}
+.downDotsParent{
+  position: relative;
+
+  .downDots{
+    position: absolute;;
+    top:50%;
+    left:30%;
+    transform: translateY(-50%);
+  }
+}
+
+
+.upDotsParent{
+  position: relative;
+  padding:15px;
+
+  .updots{
+    position: absolute;;
+    top:50%;
+    left:50%;
+    transform: translateY(-50%);
+  }
+}
+
+.schedule{
+  margin-top:5%;
+}
+
+// *{
+//   border:1px solid red;
+// }
