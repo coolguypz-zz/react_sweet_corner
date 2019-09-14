@@ -4,31 +4,20 @@ import downDots from '../../assets/images/down-dots.png'
 import updots from '../../assets/images/up-dots.png'
 import ContactForm from './contact_form'
 import Schedule from '../general/schedule/schedule.jsx'
+import {showResults} from '../general/form/textarea'
 
 class Contact extends Component {
 
-  state = { 
-    name:'',
-    email:'',
-    phone:'',
-    subject:'',
-    textarea:''
-   }
-
-   handleSubmit=(e)=>{
-    e.preventDefault();
-    const {name,email,phone,subject,textarea} = this.state;
-    const post = {
-      name:name,
-      email:email,
-      phone:phone,
-      subject:subject,
-      textarea:textarea
-    }
-    console.log(post);
-  }
+  // state = { 
+  //   name:'',
+  //   email:'',
+  //   phone:'',
+  //   subject:'',
+  //   textarea:''
+  //  }
 
   render() { 
+   
     return(
       <>
       <div>
@@ -54,11 +43,9 @@ class Contact extends Component {
             </div>
             <div className="col-md-6">
               <div className='pad'>
-              <form className='float-right m5' onSubmit={this.handleSubmit}>
-              <h4>Contact Form</h4>
-                <ContactForm/>
-                <button className='send float-right' >SEND</button>
-              </form>
+
+              <ContactForm onSubmit={showResults}/>
+            
               </div>
             </div>
             <div className="col-md-6 schedule">
@@ -77,3 +64,9 @@ class Contact extends Component {
  
 export default Contact;
 
+
+export const home = props=>{
+  return(
+    <div></div>
+  )
+}

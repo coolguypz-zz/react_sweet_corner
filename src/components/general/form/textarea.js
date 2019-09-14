@@ -1,31 +1,26 @@
+
+
 import React, { Component } from 'react';
 import 'bootstrap/dist/css/bootstrap.css'
+import { Field } from 'redux-form'
 import './form.scss'
 
-class TextArea extends Component {
-  state = { 
-    message:''
-   }
-
-  handleOnChang=(e)=>{
-    this.setState({[e.target.name]:e.target.value})
-   }
-
-  checkTextArea=()=>{
-    if(this.state.message !== ""){
-      
-    }
-  }
+export default class TextArea extends Component {
 
   render() { 
-    const {message} = this.state
     return(
-      <div className="form-group ">  
-        <textarea type='text' row="10" col='10' name='message' value={message} onChange ={this.handleOnChang} placeholder='Message' autoComplete='message' required></textarea>
-      </div>
+        <div className='m-2'>
+        <div>
+          <Field name="notes" component="textarea" placeholder='Message' required/>
+        </div>
+        </div>
     )
 }
 }
  
-export default TextArea;
 
+export const showResults = (values)=>{
+  console.log(values);
+  // await sleep(500); // simulate server latency
+  window.alert(`You submitted:\n\n${JSON.stringify(values, null, 2)}`);
+};

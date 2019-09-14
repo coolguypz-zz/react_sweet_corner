@@ -7,7 +7,7 @@ export default props => {
   const year = new Date().getFullYear();
 
   return (
-      <div>
+      <div className='mb-1'>
           {/* <h1 className="center">This is the Footer</h1> */}
           <footer className='row'>
             <div className='dots col-md-3 '></div>
