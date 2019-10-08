@@ -10,9 +10,9 @@ export default props => {
             <div>
             <div className="row">
                 <div className="col-md-7">
-                  <h2>
+                  <h3 className = 'mt-3 mb-3'>
                     We cherish the sweet moments...
-                  </h2>
+                  </h3>
                   <p>
                   For couples looking beyond the traditional wedding Sweet Corner offers the
                   modern day alternative to a traditional wedding cake. Stack your wedding cupcakes
@@ -29,7 +29,7 @@ export default props => {
                   <p>
                   Higher prices may apply to custom cupcake flavors and highly detailed cupcakes.
                   </p>
-                  <h2>Party cupcakes</h2>
+                  <h3 className = 'mt-3 mb-3'>Party cupcakes</h3>
                   <p>
                   Dress it up with the Sprinkles Cupcake or keep it simple and let the cupcakes shine!
                   </p>
@@ -41,7 +41,7 @@ export default props => {
                   3D Custom Cakes, Helmets, Wine Bottles, Naughty Cakes, Logos are a minimum
                   $135.00+, will be based on time required and intricacy of the design.
                   </p>
-                  <h2>Gift cupcake</h2>
+                  <h3 className = 'mt-3 mb-3'>Gift cupcake</h3>
                   <p>
                   Sending our cupcakes by post is the perfect way to say pretty much anything you
                   can think of - from Happy Birthday and Welcome to your new home, to Thanks for a
@@ -62,7 +62,7 @@ export default props => {
                 </div>
                 <div className="col-md-2 aside1"></div>
                 <div className="col-md-3 aside2"></div>
-                <img src={box1} className='mt-3 mb-3' alt="box1.png"/>
+                <div className='box2'></div>
             </div>
         </div>
     </div>

@@ -1,0 +1,20 @@
+export default {
+  GET_ALL_PRODUCTS:'get_all_products',
+  GET_PRODUCT_DETAILS:'get_product_details',
+  CLEAR_PRODUCT_DETAILS:'clear_product_details',
+  ADD_ITEM_TO_CART: 'add_item_to_cart',
+  GET_ACTIVE_CART:'get_active_cart',
+  GET_CART_TOTALS:'get_cart_totals',
+  CREATE_GUEST_ORDER:'create_guest_order',
+  GET_GUEST_ORDER_DETAILS:'get_guest_order_details',
+  ADD_QTY:"add_qty",
+  REMOVE_QTY: 'remove_qty',
+  ITEM_DELETE:'item_delete',
+  CREAT_ACCOUNT:'create_account',
+  SIGN_IN:'sign_in,',
+  USER_LOGIN:'user_login',
+  ACTIVE_USER_LOGIN:'active_user_logoin',
+  GET_USER_CHECKOUT:'get_user_checkout',
+  GET_USER_ORDER_DETAIL:'get_user_order_detail',
+  LOG_OUT:'log_out'
+}

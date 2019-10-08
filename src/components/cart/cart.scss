@@ -1,0 +1,28 @@
+.table {
+   th {
+      font-size: 1.3rem;
+      text-align: center;
+   }
+
+   td {
+      vertical-align: middle;
+      text-align: center;
+      font-size: 1.1rem;
+   }
+}
+
+.quantity-cart {
+   position: relative;
+
+   .quantity-middle {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+   }
+}
+.arrow {
+   border: none;
+   height: 15px;
+   font-size: 1.3rem;
+   cursor: pointer;
+}

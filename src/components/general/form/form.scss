@@ -1,4 +1,4 @@
-input{
+.input-field {
   display: block;
   width: 100%;
   padding: 0.375rem 0.75rem;
@@ -10,80 +10,69 @@ input{
   border: 1px solid #ced4da;
   border-radius: 0.25rem;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-  width: 310px;
+  width: 330px;
   height: 35px;
 
-  &:hover{
-    background-color:white;
+  &:hover {
+    background-color: white;
   }
 
-  &:not([value]){
-    background-color: rgb(232, 240, 254) !important;
-  }
-
-}     
-
-.name{
-  background-color: #e86b35 ;
-
-  &:hover{
-    background-color:white;
-  }
-
-  &:not(:empty){
-    background-color: rgb(232, 240, 254) !important;
-
-  }
-
-}
-
-
-.email{
-  background-color: #f6b53e; 
-
-  &:hover{
-    background-color:white;
-  }
-
-  &:not(:empty){
-    background-color: rgb(232, 240, 254) !important;
-
-  }
-
-}
-
-
-.phone{
-  background-color: #06b4af ;
-
-  &:hover{
-    background-color:white;
-  }
-  &:not(:empty){
+  &:not([value]) {
     background-color: rgb(232, 240, 254) !important;
   }
 }
 
+#name {
+  background-color: #e86b35;
 
-.subject{
-  background-color: #e86b35 ;
-
-  &:hover{
-    background-color:white;
+  &:hover {
+    background-color: white;
   }
 
-  &:not(:empty){
+  &:not(:empty) {
     background-color: rgb(232, 240, 254) !important;
-
   }
-
 }
 
+#email {
+  background-color: #f6b53e;
 
-textarea{
+  &:hover {
+    background-color: white;
+  }
+
+  &:not(:empty) {
+    background-color: rgb(232, 240, 254) !important;
+  }
+}
+
+#phone {
+  background-color: #06b4af;
+
+  &:hover {
+    background-color: white;
+  }
+  &:not(:empty) {
+    background-color: rgb(232, 240, 254) !important;
+  }
+}
+
+#subject {
+  background-color: #e86b35;
+
+  &:hover {
+    background-color: white;
+  }
+
+  &:not(:empty) {
+    background-color: rgb(232, 240, 254) !important;
+  }
+}
+
+textarea {
   background-color: #f6b53e;
   display: block;
-  width: 310px;
+  width: 330px;
   height: auto;
   padding: 0.375rem 0.75rem;
   font-size: 1rem;
@@ -95,12 +84,16 @@ textarea{
   border-radius: 0.25rem;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 
-  &:hover{
-    background-color:white;
+  &:hover {
+    background-color: white;
   }
 
-  &:not(:empty){
+  &:not(:empty) {
     background-color: rgb(232, 240, 254) !important;
   }
-  
+}
+
+.error {
+  width: 310px;
+  text-align: center;
 }

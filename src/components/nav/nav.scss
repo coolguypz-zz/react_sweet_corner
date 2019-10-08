@@ -1,29 +1,48 @@
-.main-nav{
-  position: absolute;
-  top: 27%;
-  right: 2%;
 
-  li{
-    display: inline-block;
-    margin-left: 30px;
-    list-style: none;
-    font-size: .85rem;
-    text-transform: uppercase;
-    text-align: center;
-    text-shadow: 2px 2px 3px darkgrey;
+  a{
+    color: #754b23 ;
+    text-decoration: none;
+    background-color: transparent;
+    // text-align: center;
     cursor: pointer;
-    font-family: sans-serif;
 
-    a{
+    &:hover{
+      color: orange;
       text-decoration: none;
-      color: #754b23;
-
-      &:hover{
-        color: orange;
-      }
     }
   }
+  .link{
+    text-transform: uppercase;
+    text-shadow: 2px 2px 3px darkgrey;
+    margin-right: 5px;
+  }
+
+
+.loginList{
+  left:5%;
+  width: 140px;;
+}  
+
+.mobileMenu{
+  position: absolute !important;
+  left: -5% !important;
+  top: 90% !important;
+
 }
 
+.navbar-light .navbar-toggler {
+  margin-top: 12%;
+}
 
+@media (min-width: 992px){
 
+  .navbar-expand-lg {
+    -ms-flex-flow: row nowrap;
+    flex-flow: row nowrap;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    top: 87%;
+    float: right;
+    margin-right: 20px;
+}
+}

@@ -1,6 +1,5 @@
 import React from 'react';
 import './about.scss'
-import box1 from '../../assets/images/box1.png'
 
 export default props=>{
   return (
@@ -8,10 +7,10 @@ export default props=>{
       {/* <h1 className="center">About Page</h1> */}
       <div>
             <div className="row">
-                <div className="col-md-7">
-                  <h2>
+                <div className="col-md-8">
+                  <h3 className = 'mt-3 mb-3'>
                   Delicious cupcakes, magical moments!
-                  </h2>
+                  </h3>
                   <p>
                     Sweet Corner is growing fast. Our delicious cupcakes of all sizes, shapes and
                     colors and tastes are creating a real wow factor.
@@ -38,8 +37,9 @@ export default props=>{
                   </p>
                 </div>
                 <div className="col-md-2 aside1"></div>
-                <div className="col-md-3 aside2"></div>
-                <img src={box1} className='mt-3 mb-3' alt="box1.png"/>
+                <div className="col-md-2 aside2"></div>
+                <div className="box">
+                </div>
             </div>
         </div>
     </div>
