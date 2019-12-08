@@ -1,0 +1,42 @@
+.parent {
+  display: block;
+}
+.form_login {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 4% 34%;
+
+  .first{
+    background-color: #e86b35;
+    margin: 2px 0;
+    width: 330px;
+  }
+  .last{
+    background-color: #f6b53e; 
+    margin: 2px 0;
+    width: 330px;
+  }
+  .emailcheckout{
+    background-color: #06b4af ;
+    margin: 2px 0;
+    width: 330px;
+  }
+}
+
+.button{
+  margin: 9% 30%;
+  padding: 1rem 0.76rem;
+  border-radius: 5px;
+  background-color: #e86b35;
+  color: azure;
+  font-weight: 400;
+}
+
+
+.userOrderList{
+  cursor: pointer;
+
+  &:hover{
+    background-color: lightblue;
+  }
+}

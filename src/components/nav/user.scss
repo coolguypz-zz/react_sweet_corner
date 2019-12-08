@@ -1,0 +1,80 @@
+.fa {
+   font-size: 1.4rem;
+}
+
+.loginList {
+   // width: 140px;
+   text-align: center;
+   animation: fadein 2s;
+
+   div {
+      margin-top: 2px;
+      cursor: pointer;
+      font-family: sans-serif;
+      color: #754b23;
+   }
+
+   div:hover {
+      color: orange;
+   }
+   .dropdownList {
+      margin-top: -14px;
+      text-align: center;
+   }
+}
+
+.dropdown-item {
+  color: #754b23;
+  
+  &:hover {
+    color: orange;
+ }
+}
+
+@keyframes fadein {
+   from {
+      opacity: 0;
+   }
+   to {
+      opacity: 1;
+   }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+   from {
+      opacity: 0;
+   }
+   to {
+      opacity: 1;
+   }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+   from {
+      opacity: 0;
+   }
+   to {
+      opacity: 1;
+   }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+   from {
+      opacity: 0;
+   }
+   to {
+      opacity: 1;
+   }
+}
+
+.pFont {
+   font-size: 0.8rem;
+   color: #754b23;
+}
+
+.fa {
+   color: #754b23;
+}

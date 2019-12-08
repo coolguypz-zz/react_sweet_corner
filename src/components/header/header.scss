@@ -1,0 +1,41 @@
+@font-face {
+  font-family: fancy;
+  src: url("../../assets/fonts/Allura-Regular.ttf");
+}
+
+.header {
+  width: 100%;
+  position: relative;
+  height: 420px;
+  border-bottom: 24px solid #754b23;
+  // font-family: cursive,sans-serif;
+
+  .fancy {
+    font-family: fancy;
+    font-size: 1.5rem;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #754b23;
+  }
+  .backimg {
+    background-image: url("../../assets/images/header.png");
+    background-repeat: no-repeat;
+    height: 100px;
+  }
+  .logo {
+    position: absolute;
+    top: 37%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .header {
+    .fancy {
+      font-size: 1.1rem;
+    }
+  }
+}

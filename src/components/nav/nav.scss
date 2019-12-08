@@ -1,0 +1,48 @@
+
+  a{
+    color: #754b23 ;
+    text-decoration: none;
+    background-color: transparent;
+    // text-align: center;
+    cursor: pointer;
+
+    &:hover{
+      color: orange;
+      text-decoration: none;
+    }
+  }
+  .link{
+    text-transform: uppercase;
+    text-shadow: 2px 2px 3px darkgrey;
+    margin-right: 5px;
+  }
+
+
+.loginList{
+  left:5%;
+  width: 140px;;
+}  
+
+.mobileMenu{
+  position: absolute !important;
+  left: -5% !important;
+  top: 90% !important;
+
+}
+
+.navbar-light .navbar-toggler {
+  margin-top: 12%;
+}
+
+@media (min-width: 992px){
+
+  .navbar-expand-lg {
+    -ms-flex-flow: row nowrap;
+    flex-flow: row nowrap;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    top: 87%;
+    float: right;
+    margin-right: 20px;
+}
+}
