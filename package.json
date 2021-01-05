@@ -15,7 +15,7 @@
     "url": "https://github.com/Peterzhang123/react_sweet_corner.git"
   },
   "dependencies": {
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "bootstrap": "^4.3.1",
     "react": "^16.9.0",
     "react-addons-update": "^15.6.2",
